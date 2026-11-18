@@ -63,7 +63,7 @@ jobs:
         run: ./gradlew exportLibraryDefinitions
 
       - name: Build release APK
-        run: ./gradlew androidApp:assembleRelease
+        run: ./gradlew androidApp:assembleDebug
 
       - name: Check build-tools version
         shell: bash
