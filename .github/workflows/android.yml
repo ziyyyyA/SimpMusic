@@ -25,7 +25,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v4
         with:
           submodules: 'recursive'
 
@@ -62,7 +62,7 @@ jobs:
       - name: Generate aboutLibraries.json
         run: ./gradlew exportLibraryDefinitions
 
-      - name: Build release APK
+      - name: Build debug APK
         run: ./gradlew androidApp:assembleDebug
 
       - name: Check build-tools version
@@ -72,10 +72,10 @@ jobs:
           echo "BUILD_TOOL_VERSION=$BUILD_TOOL_VERSION" >> $GITHUB_ENV
           echo Last build tool version is: $BUILD_TOOL_VERSION
 
-      # A pull request from a fork gets no secrets, so it only checks that the APK builds.
+      # Fork üzerinde imzalama şifreleri olmadığı için imzalama adımını devre dışı bırakıyoruz (if: false)
       - uses: kevin-david/zipalign-sign-android-release@v2
         id: sign_app
-        if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+        if: false
         with:
           releaseDirectory: androidApp/build/outputs/apk/release
           signingKeyBase64: ${{ secrets.SIGNING_KEY }}
@@ -84,19 +84,18 @@ jobs:
           keyPassword: ${{ secrets.KEY_PASSWORD }}
           zipAlign: true
         env:
-            BUILD_TOOLS_VERSION: ${{ env.BUILD_TOOL_VERSION }}
+          BUILD_TOOLS_VERSION: ${{ env.BUILD_TOOL_VERSION }}
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-         name: app
-         path: androidApp/build/outputs/apk/debug/*.apk
+          name: app-debug
+          path: androidApp/build/outputs/apk/debug/*.apk
 
-  # SimpMusic for vivo (vivoAndroidApp, com.spotify.music), same Full build as above.
   build-vivo:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v4
         with:
           submodules: 'recursive'
 
@@ -133,8 +132,8 @@ jobs:
       - name: Generate aboutLibraries.json
         run: ./gradlew exportLibraryDefinitions
 
-      - name: Build vivo release APK
-        run: ./gradlew vivoAndroidApp:assembleRelease
+      - name: Build vivo debug APK
+        run: ./gradlew vivoAndroidApp:assembleDebug
 
       - name: Check build-tools version
         shell: bash
@@ -143,10 +142,9 @@ jobs:
           echo "BUILD_TOOL_VERSION=$BUILD_TOOL_VERSION" >> $GITHUB_ENV
           echo Last build tool version is: $BUILD_TOOL_VERSION
 
-      # A pull request from a fork gets no secrets, so it only checks that the APK builds.
       - uses: kevin-david/zipalign-sign-android-release@v2
         id: sign_app
-        if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+        if: false
         with:
           releaseDirectory: vivoAndroidApp/build/outputs/apk/release
           signingKeyBase64: ${{ secrets.SIGNING_KEY }}
@@ -155,11 +153,10 @@ jobs:
           keyPassword: ${{ secrets.KEY_PASSWORD }}
           zipAlign: true
         env:
-            BUILD_TOOLS_VERSION: ${{ env.BUILD_TOOL_VERSION }}
+          BUILD_TOOLS_VERSION: ${{ env.BUILD_TOOL_VERSION }}
 
       - name: Upload APK
-        if: steps.sign_app.outcome == 'success'
         uses: actions/upload-artifact@v4
         with:
-          name: app-vivo
-          path: vivoAndroidApp/build/outputs/apk/release/*-signed.apk
+          name: app-vivo-debug
+          path: vivoAndroidApp/build/outputs/apk/debug/*.apk
