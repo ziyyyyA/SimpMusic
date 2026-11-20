@@ -104,6 +104,7 @@ android {
             isMinifyEnabled = false
             applicationIdSuffix = ".dev"
             versionNameSuffix = "-dev"
+            resValue("string", "app_name", "SimpMusic Test")
         }
     }
     compileOptions {
