@@ -558,10 +558,8 @@
     <string name="play_all">Çalmaya başla</string>
     <string name="introducing_simpmusic_chart">SimpMusic Listelerini Keşfet</string>
     <string name="search_for">%1$s ara...</string>
-    <string name="">%1$s ara...</string>
     <string name="whats_your_music_taste">Müzik zevkin nasıl?</string>
     <string name="music_taste_ai_description">Yapay zekanın son 12 aylık dinleme geçmişini inceleyip sana anlatmasına izin ver.</string>
-    
     <!-- Listen Together -->
     <string name="listen_together">Birlikte Dinleyin</string>
     <string name="lt_tagline">Arkadaşınız ile birlikte, tek şarkı, tek pozisyon. Bir oda oluşturun ve kodu arkadaşlarınızla paylaşın.</string>
