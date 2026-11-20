@@ -61,7 +61,7 @@
     <string name="this_app_needs_to_access_your_notification">Bu uygulamanın bildirimlere erişmesi gerekiyor</string>
     <string name="shared">Paylaşılan</string>
     <string name="rich_synced">Kelime kelime</string>
-    <string name="line_synced">Sıra Senkronize Edildi</string>
+    <string name="line_synced">Satır Senkronize Edildi</string>
     <string name="unsynced">Senkronize Değil</string>
     <string name="playlist_is_empty">Oynatma listesi boş</string>
     <string name="option">Seçenek</string>
@@ -125,7 +125,7 @@
     <string name="buy_me_a_coffee">Bana bir kahve ısmarla</string>
     <string name="paypal">PayPal</string>
     <string name="title">Başlık</string>
-    <string name="custom_order">Özel sipariş</string>
+    <string name="custom_order">Özel sıralama</string>
     <string name="album">Albüm</string>
     <string name="youtube_url">YouTube URL'si</string>
     <string name="download_url">İndirme Bağlantısı</string>
@@ -212,7 +212,7 @@
     <string name="customactivityoncrash_error_activity_error_details_copied">Panoya kopyalandı</string>
     <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Hata bilgisi</string>
     <string name="no_update">En yeni sürüme sahipsiniz</string>
-    <string name="sleep_timer">Uyku Zamanlayıcısı -%1$s dakika(lar)</string>
+    <string name="sleep_timer">Uyku Zamanlayıcısı -%1$s dakika</string>
     <string name="sleep_timer_end_of_song">Uyku zamanlayıcı - Şarkı sonu</string>
     <string name="sleep_timer_off">Uyku Zamanlayıcısı</string>
     <string name="sleep_minutes">Geri sayım süresi (dakika)</string>
@@ -267,13 +267,13 @@
     <string name="other_app">Diğer uygulamalar</string>
     <string name="database">Uygulama veritabanı</string>
     <string name="free_space">Boş alan</string>
-    <string name="suggest">Telkin</string>
+    <string name="suggest">Öner</string>
     <string name="reload">Tekrar yükle</string>
     <string name="sort_by">Şuna göre sırala</string>
     <string name="sort">Sırala</string>
     <string name="older_first">Eskiden Yeniye</string>
     <string name="newer_first">Yeniden Eskiye</string>
-    <string name="added_date">Tarih eklendi</string>
+    <string name="added_date">Eklenme tarihi</string>
     <string name="credit_app">Arka uç olarak YouTube Music'i kullanan basit bir müzik uygulaması \n\nSimpMusic, reklamlar ve izleme olmadan YouTube ve YouTube Music'ten müzik akışı sağlayan açık kaynaklı bir projedir. SimpMusic birçok özellik sunar:\n\n - Müzik akışı \n - Senkronize şarkı sözleri\n - Verileri kişiselleştirin\n - vb… \n\nSimpMusic her zaman ücretsizdir ve reklam içermez\n\nTuan Minh Nguyen Duc'tan ❤️ ile oluşturun (maxrave-dev)</string>
     <string name="issue_tracker">Sorun Takibi</string>
     <string name="featured_playlists">Öne Çıkan Oynatma Listeleri</string>
@@ -335,7 +335,7 @@
     <string name="offline_mode">Çevrim dışı mod</string>
     <string name="added_to_youtube_liked">YouTube Beğenilenler'e eklendi</string>
     <string name="removed_from_youtube_liked">YouTube Beğenilenler'den kaldırıldı</string>
-    <string name="home_limit">İnternet kota limitini getir</string>
+    <string name="home_limit">İnternet kota limiti koy</string>
     <string name="no_album">Albüm yok</string>
     <string name="app_widget_description">Oynatma aracı</string>
     <string name="guide_miniplayer_content">Atla ve kapat düğmesini göstermek için kaydırın</string>
@@ -354,7 +354,7 @@
     <string name="no_notification">Bildirim yok</string>
     <string name="created_at">Oluşturuldu: %1$s</string>
     <string name="unknown">Bilinmeyen</string>
-    <string name="repeat_one">Birini tekrarla</string>
+    <string name="repeat_one">Bir parçayı tekrarla</string>
     <string name="repeat_all">Tümünü Tekrarla</string>
     <string name="repeat_off">Tekrarlama Kapalı</string>
     <string name="youtube_transcript">YouTube Transkripti</string>
@@ -411,7 +411,7 @@
     <string name="five_seconds">Beş saniye</string>
     <string name="lyrics_provider_lrc">Şarkı sözleri LRCLIB tarafından sağlanmıştır</string>
     <string name="sync_first">Önce bu çalma listesini YouTube Music ile senkronize edin</string>
-    <string name="endless_queue">Sonsuz sıra</string>
+    <string name="endless_queue">Sonsuz kuyruk</string>
     <string name="continue_playing">Çalmaya Devam Et</string>
     <string name="do_not_show_again">Tekrar gösterme</string>
     <string name="auto_check_for_update">Güncellemeleri otomatik denetle</string>
@@ -447,7 +447,7 @@
     <string name="retrieve_youtube_data">YouTube Verilerini Alma</string>
     <string name="no_results_found">Hiçbir sonuç bulunamadı</string>
     <string name="ai">Yapay Zeka</string>
-    <string name="ai_provider">Yapay zeka sağlayıcı</string>
+    <string name="ai_provider">Yapay zeka sağlayıcısı</string>
     <string name="openai">OpenAI</string>
     <string name="gemini">Gemini</string>
     <string name="ai_api_key">Yapay Zeka API Anahtarınız</string>
@@ -462,7 +462,7 @@
     <string name="your_youtube_cookie">YouTube Çereziniz</string>
     <string name="your_discord_token">Discord jetonunuz</string>
     <string name="can_not_be_empty">Boş olamaz</string>
-    <string name="processing">İşleme</string>
+    <string name="processing">İşleniyor</string>
     <string name="website">Website</string>
     <string name="download_this_song_video_file_to_your_device">Bu şarkıyı/video dosyasını cihazınıza indirin</string>
     <string name="kill_service_on_exit">Çıkınca hizmeti sonlandır</string>
@@ -558,9 +558,13 @@
     <string name="play_all">Çalmaya başla</string>
     <string name="introducing_simpmusic_chart">SimpMusic Listelerini Keşfet</string>
     <string name="search_for">%1$s ara...</string>
+    <string name="">%1$s ara...</string>
+    <string name="whats_your_music_taste">Müzik zevkin nasıl?</string>
+    <string name="music_taste_ai_description">Yapay zekanın son 12 aylık dinleme geçmişini inceleyip sana anlatmasına izin ver.</string>
+    
     <!-- Listen Together -->
     <string name="listen_together">Birlikte Dinleyin</string>
-    <string name="lt_tagline">Arkadışınız ile birlikte, tek şarkı, tek pozisyon. Bir oda oluşturun ve kodu arkadaşlarınızla paylaşın.</string>
+    <string name="lt_tagline">Arkadaşınız ile birlikte, tek şarkı, tek pozisyon. Bir oda oluşturun ve kodu arkadaşlarınızla paylaşın.</string>
     <string name="lt_not_connected">Bağlanamadı</string>
     <string name="lt_connected">Bağlandı</string>
     <string name="lt_connecting">Bağlanıyor...</string>
@@ -596,10 +600,10 @@
     <string name="lt_waiting_approval">Yönetici bekleniyor</string>
     <string name="lt_cancel_join">İptal et</string>
     <string name="share_lyrics">Sözü paylaş</string>
-    <string name="share_lyrics_select_title">Sıra seç</string>
+    <string name="share_lyrics_select_title">Satır seç</string>
     <string name="share_lyrics_selected_count">%1$d sıra seçildi</string>
     <string name="share_lyrics_continue">Devam et</string>
-    <string name="share_lyrics_max_reached">En fazla %1$d sıra paylaşabilirsin</string>
+    <string name="share_lyrics_max_reached">En fazla %1$d satır paylaşabilirsin</string>
     <string name="share_lyrics_save">Resmi kaydet</string>
     <string name="share_lyrics_share_action">Paylaş</string>
     <string name="share_lyrics_saved">Galerine kaydedildi</string>
@@ -695,4 +699,19 @@
     <string name="last_30_days">Son 30 gün</string>
     <string name="last_90_days">Son 90 gün</string>
     <string name="this_year">Bu yıl</string>
+    <!-- Settings -->
+    <string name="theme">Tema</string>
+    <string name="system_default">Sistem varsayılanı</string>
+    <string name="dark">Koyu tema</string>
+    <string name="light">Açık tema</string>
+    <string name="lyrics_romanization">Şarkı sözü romanizasyonu</string>
+    <string name="show_lyrics_in_latin_script_for_the_languages_you_pick">Seçtiğiniz diller için şarkı sözlerini latin alfabesiyle gösterin</string>
+    <string name="preferred_audio_language">Tercih edilen ses dili</string>
+    <string name="original_audio">Orijinal ses</string>
+    <string name="theme">Tema</string>
+    <string name="theme">Tema</string>
+    <string name="theme">Tema</string>
+    <string name="theme">Tema</string>
+    <string name="theme">Tema</string>
+    <string name="theme">Tema</string>
 </resources>
