@@ -630,7 +630,7 @@
     <string name="month_full_nov">Kasım</string>
     <string name="month_full_dec">Aralık</string>
     <!-- Song Recognition -->
-    <string name="recognize_song">Şarkıyı tanı</string>
+    <string name="recognize_song">Şarkıyı bul</string>
     <string name="recognize_listening">Dinleniyor...</string>
     <string name="recognize_listening_hint">Telefonunuzu müziğe yaklaştırın</string>
     <string name="recognize_identifying">Kimlik tanımlanıyor…</string>
