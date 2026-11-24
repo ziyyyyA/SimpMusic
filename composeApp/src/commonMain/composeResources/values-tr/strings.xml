@@ -706,18 +706,18 @@
     <string name="lyrics_romanization">Şarkı sözü romanizasyonu</string>
     <string name="lyrics_romanization_description">Seçtiğiniz diller için şarkı sözlerini latin alfabesiyle gösterin</string>
     <string name="preferred_audio_language">Tercih edilen ses dili</string>
-    <string name="preferred_audio_language_message">Bazı videolar, özellikle podcast\'ler, farklı dillerde birden fazla ses izi içerir. Mevcut olduğunda o parçayı çalmak için bir dil kodu (örn: tr) (2 harf) yazın. Her zaman orijinal sesi çalmak için boş bırakın.</string>
+    <string name="preferred_audio_language_message">Bazı videolar, özellikle podcast'ler, farklı dillerde birden fazla ses izi içerir. Mevcut olduğunda o parçayı çalmak için bir dil kodu (örn: tr) (2 harf) yazın. Her zaman orijinal sesi çalmak için boş bırakın.</string>
     <string name="original_audio">Orijinal ses</string>
     <string name="login_sync_section">CİHAZLAR</string>
     <string name="login_sync_android_description">Bilgisayarınızda SimpMusic tarafından gösterilen QR kodunu tarayın</string>
     <string name="auto_download_liked_songs">Beğendiğiniz şarkıları indirin</string>
-    <string name="auto_download_liked_songs_description">Bir şarkıyı Favoriler\'e eklediğinizde, indirme kalitesi ayarınızı kullanarak çevrim dışı dinlemek için otomatik olarak indirin. Bu seçeneği açmak önceden beğendiğiniz şarkıları da indirir. Beğenmeyi kaldırmak indirilmiş dosyayı asla silmez.</string>
+    <string name="auto_download_liked_songs_description">Bir şarkıyı Favoriler'e eklediğinizde, indirme kalitesi ayarınızı kullanarak çevrim dışı dinlemek için otomatik olarak indirin. Bu seçeneği açmak önceden beğendiğiniz şarkıları da indirir. Beğenmeyi kaldırmak indirilmiş dosyayı asla silmez.</string>
     <string name="smart_downloads">Akıllı indirmeler</string>
     <string name="smart_downloads_description">En çok çaldığınız şarkıları indirilmiş olarak tutar; Wi-Fi üzerindeyken uygulamayı açtığınızda günde bir kez yeniler.</string>
     <string name="radio_audio_only">Radyoda klip yerine ses sürümünü oynat</string>
-    <string name="radio_audio_only_description">Müzik klibi mevcut olduğunda klip yerine ses sürümünü oynatır; sadece video olarak bulunan remix ve mashup\'ları atlar. Oynatma listeleri ve albümler etkilenmez.</string>
+    <string name="radio_audio_only_description">Müzik klibi mevcut olduğunda klip yerine ses sürümünü oynatır; sadece video olarak bulunan remix ve mashup'ları atlar. Oynatma listeleri ve albümler etkilenmez.</string>
     <string name="sync_follow_to_youtube">Takip edilenleri YouTube ile eşitle</string>
-    <string name="sync_follow_to_youtube_description">SimpMusic\'te bir sanatçıyı takip etmek, YouTube hesabınızda da kanala abone olunmasını sağlar.</string>
+    <string name="sync_follow_to_youtube_description">SimpMusic'te bir sanatçıyı takip etmek, YouTube hesabınızda da kanala abone olunmasını sağlar.</string>
     <string name="equalizer_description">Sesi on bantlı bir eğri ile şekillendirin</string>
     <string name="audio_delay">Gecikme</string>
     <string name="audio_delay_description">Sesi tekrarlayan bir gecikmeyle yankılandırın</string>
@@ -729,7 +729,7 @@
     <string name="enable_animated_artwork">Hareketli kapak resmi</string>
     <string name="animated_artwork_info">Canvas yerine albümün hareketli kapağını oynatın. Hesap gerekmez. Hareketli kapağı olmayan albümler durağan kapağı korur.</string>
     <string name="import_data_intro">İçe aktarma; Spotify veya başka bir YT Music istemci uygulamasından dönüştürülen çalma listelerini getirir.\nDönüştürme aracı: https://www.simpmusic.org/tools\nSimpMusic\'te yalnızca kendi biçimimizdeki çalma listesi dosyaları içe aktarılabilir</string>
-    <string name="follow_me_on_x">Beni X\'te takip edin</string>
+    <string name="follow_me_on_x">Beni X'te takip edin</string>
     <string name="developer_blog">Geliştirici Blogu</string>
     <string name="developer_blog_tagline">Geliştirici notlarını, eğitim videolarını ve perde arkası bilgilerini okuyun.</string>
     <string name="blog_notification_title">Blog gönderi bildirimleri</string>
@@ -737,4 +737,7 @@
     <string name="developer_option">GELİŞTİRİCİ SEÇENEKLERİ</string>
     <string name="app_log">Uygulama günlüğü</string>
     <string name="app_log_description">Uygulamanın günlüğünü görüntüleyin, filtreleyin ve dışa aktarın</string>
+    <string name="library_sync_title">Kitaplık senkronizasyonu</string>
+    <string name="library_sync_not_paired_android">Eşleştirilmedi · Beğenileri, sanatçıları, albümleri, podcast'leri, oynatma listelerini ve geçmişi bilgisayarınızla paylaşın</string>
+    <string name="library_sync_not_paired_desktop">Eşleştirilmedi · Beğenileri, sanatçıları, albümleri, podcast'leri, oynatma listelerini ve geçmişi telefonunuzla paylaşın</string>
 </resources>
